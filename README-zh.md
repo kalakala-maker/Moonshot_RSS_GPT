@@ -54,13 +54,13 @@
 
 如果你觉得本项目有帮助，欢迎 star。
 
-- https://brett.trpstra.net/brettterpstra -> https://kalakala-maker.github.io/RSS-GPT/brett-terpstra.xml
-- https://meta.appinn.net/tag/chrome.rss, https://meta.appinn.net/tag/ios.rss, https://meta.appinn.net/tag/macos.rss -> https://kalakala-maker.github.io/RSS-GPT/appinn.xml
-- https://rsshub.app/sspai/index -> https://kalakala-maker.github.io/RSS-GPT/sspai.xml
-- https://rknight.me/feed.xml -> https://kalakala-maker.github.io/RSS-GPT/robb-knight.xml
-- https://stephanango.com/feed.xml -> https://kalakala-maker.github.io/RSS-GPT/steph-ango.xml
-- https://lopespm.com/atom.xml -> https://kalakala-maker.github.io/RSS-GPT/byte-tank.xml
-- https://rsshub.app/36kr/motif/327685554177, https://rsshub.app/36kr/motif/327687077889, https://rsshub.app/36kr/motif/1366661828936836, https://rsshub.app/36kr/motif/1366662419875203, https://rsshub.app/36kr/motif/1756302767423108, https://rsshub.app/36kr/motif/327686815745, https://rsshub.app/36kr/motif/327685734401 -> https://kalakala-maker.github.io/RSS-GPT/36kr.xml
-- https://rsshub.app/36kr/motif/327686782977 -> https://kalakala-maker.github.io/RSS-GPT/36kr-ai.xml
-- https://rsshub.app/paulgraham/articles -> https://kalakala-maker.github.io/RSS-GPT/paul-graham.xml
-- https://nesslabs.com/feed -> https://kalakala-maker.github.io/RSS-GPT/ness-labs.xml
+- https://brett.trpstra.net/brettterpstra -> https://kalakala-maker.github.io/Moonshot_RSS_GPT/brett-terpstra.xml
+- https://meta.appinn.net/tag/chrome.rss, https://meta.appinn.net/tag/ios.rss, https://meta.appinn.net/tag/macos.rss -> https://kalakala-maker.github.io/Moonshot_RSS_GPT/appinn.xml
+- https://rsshub.app/sspai/index -> https://kalakala-maker.github.io/Moonshot_RSS_GPT/sspai.xml
+- https://rknight.me/feed.xml -> https://kalakala-maker.github.io/Moonshot_RSS_GPT/robb-knight.xml
+- https://stephanango.com/feed.xml -> https://kalakala-maker.github.io/Moonshot_RSS_GPT/steph-ango.xml
+- https://lopespm.com/atom.xml -> https://kalakala-maker.github.io/Moonshot_RSS_GPT/byte-tank.xml
+- https://rsshub.app/36kr/motif/327685554177, https://rsshub.app/36kr/motif/327687077889, https://rsshub.app/36kr/motif/1366661828936836, https://rsshub.app/36kr/motif/1366662419875203, https://rsshub.app/36kr/motif/1756302767423108, https://rsshub.app/36kr/motif/327686815745, https://rsshub.app/36kr/motif/327685734401 -> https://kalakala-maker.github.io/Moonshot_RSS_GPT/36kr.xml
+- https://rsshub.app/36kr/motif/327686782977 -> https://kalakala-maker.github.io/Moonshot_RSS_GPT/36kr-ai.xml
+- https://rsshub.app/paulgraham/articles -> https://kalakala-maker.github.io/Moonshot_RSS_GPT/paul-graham.xml
+- https://nesslabs.com/feed -> https://kalakala-maker.github.io/Moonshot_RSS_GPT/ness-labs.xml
