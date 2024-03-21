@@ -7,6 +7,8 @@ from jinja2 import Template
 from bs4 import BeautifulSoup
 import re
 import datetime
+from dotenv import load_dotenv
+load_dotenv(dotenv_path='./venv/.env')
 #from dateutil.parser import parse
 
 def generate_untitled(entry):
@@ -128,6 +130,7 @@ def gpt_summary(query,model,language):
     if not OPENAI_PROXY:
         client = OpenAI(
             api_key=OPENAI_API_KEY,
+            base_url=BASE_URL,
         )
     else:
         client = OpenAI(
@@ -248,16 +251,16 @@ def output(sec, language):
             elif OPENAI_API_KEY:
                 token_length = len(cleaned_article)
                 try:
-                    entry.summary = gpt_summary(cleaned_article,model="gpt-3.5-turbo", language=language)
+                    entry.summary = gpt_summary(cleaned_article,model="moonshot-v1-8k", language=language)
                     with open(log_file, 'a') as f:
                         f.write(f"Token length: {token_length}\n")
-                        f.write(f"Summarized using GPT-3.5-turbo\n")
+                        f.write(f"Summarized using moonshot-v1-8k\n")
                 except:
                     try:
-                        entry.summary = gpt_summary(cleaned_article,model="gpt-4-turbo-preview", language=language)
+                        entry.summary = gpt_summary(cleaned_article,model="moonshot-v1-32k", language=language)
                         with open(log_file, 'a') as f:
                             f.write(f"Token length: {token_length}\n")
-                            f.write(f"Summarized using GPT-4-turbo-preview\n")
+                            f.write(f"Summarized using moonshot-v1-32k\n")
                     except Exception as e:
                         entry.summary = None
                         with open(log_file, 'a') as f:
@@ -290,7 +293,8 @@ secs = config.sections()
 # Maxnumber of entries to in a feed.xml file
 max_entries = 1000
 
-OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+OPENAI_API_KEY = os.environ.get('MOONSHOT_API_KEY')
+BASE_URL = os.environ.get('BASE_URL')
 U_NAME = os.environ.get('U_NAME')
 OPENAI_PROXY = os.environ.get('OPENAI_PROXY')
 deployment_url = f'https://{U_NAME}.github.io/RSS-GPT/'
