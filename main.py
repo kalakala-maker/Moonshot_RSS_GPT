@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import re
 import datetime
 from dotenv import load_dotenv
-load_dotenv(dotenv_path='./venv/.env')
+# load_dotenv(dotenv_path='./venv/.env')
 #from dateutil.parser import parse
 
 def generate_untitled(entry):
