@@ -327,6 +327,39 @@ def append_readme(readme, links):
     with open(readme, 'w') as f:
         f.writelines(readme_lines)
 
+def generate_opml(links):
+    import xml.etree.ElementTree as ET
+    import requests
+    opml = ET.Element("opml", version="1.0")
+
+    # 创建 head 子元素
+    head = ET.SubElement(opml, "head")
+    title = ET.SubElement(head, "title")
+    title.text = "Fluent Reader Export"
+
+    # 创建 body 子元素
+    body = ET.SubElement(opml, "body")
+    for link in links:
+        url = link.split(' -> ')[1].replace('\n','')
+        print(url)
+        response = requests.get(url)
+        xml_data = response.text
+        root = ET.fromstring(xml_data)
+        # 获取 channel 中的 title 和 link
+        channel = root.find('channel')
+        title = channel.find('title').text
+        link = channel.find('link').text
+        outline_data = {
+            "text": title,
+            "type": "rss",
+            "xmlUrl": link
+        }
+        ET.SubElement(body, "outline", attrib=outline_data)
+    tree = ET.ElementTree(opml)
+
+    tree.write("output.opml", encoding="utf-8", xml_declaration=True)
+
+
 append_readme("README.md", links)
 append_readme("README-zh.md", links)
 
