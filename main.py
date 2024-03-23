@@ -357,7 +357,7 @@ def generate_opml(links):
         ET.SubElement(body, "outline", attrib=outline_data)
     tree = ET.ElementTree(opml)
     with open("output.opml", 'w', encoding='utf-8') as f:
-        tree.write(f, encoding="utf-8", xml_declaration=True)
+        tree.write(f, encoding="unicode", xml_declaration=True)
 
 
 append_readme("README.md", links)
