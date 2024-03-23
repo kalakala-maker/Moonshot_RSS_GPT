@@ -362,7 +362,7 @@ def generate_opml(links):
 
 append_readme("README.md", links)
 append_readme("README-zh.md", links)
-
+generate_opml(links)
 # Rendering index.html used in my GitHub page, delete this if you don't need it.
 # Modify template.html to change the style
 with open(os.path.join(BASE, 'index.html'), 'w') as f:
