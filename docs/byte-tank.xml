@@ -4,6 +4,7 @@
 <title>Byte Tank - Pedro Lopes Blog</title>
 <link>http://lopespm.github.io/</link>
 
+
 <item>
 <title>Minimalist Onyx BOOX Note Air3 B/W Setup</title>
 <link>http://lopespm.github.io/notes/2024/03/25/minimalist_boox.html</link>
@@ -410,10 +411,8 @@ adb shell pm disable-user --user 0 com.onyx.calculator
   </ol>
 </div>
 ]]></content:encoded>
-
 <pubDate>2024-03-25T00:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Musk's biography: why it's interesting</title>
 <link>http://lopespm.github.io/notes/2024/02/18/elon_musk_biography.html</link>
