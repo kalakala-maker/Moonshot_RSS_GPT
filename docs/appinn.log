@@ -20562,3 +20562,12 @@ Fetching from https://meta.appinn.net/tag/ios.rss
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 0
 Finish: 2024-03-29 10:16:31.630931
+------------------------------------------------------
+Started: 2024-03-29 12:28:39.726927
+Existing_entries: 331
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Append: [全平台（网页）保持屏幕常亮 Keep Screen On【用户推荐】](https://meta.appinn.net/t/topic/54508)
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+append_entries: 1
+Finish: 2024-03-29 12:28:41.906216
