@@ -21236,3 +21236,12 @@ Append: [2024了，有哪些好用的软件或功能是其他系统还没有的�
 Fetching from https://meta.appinn.net/tag/macos.rss
 append_entries: 1
 Finish: 2024-04-05 08:21:13.830600
+------------------------------------------------------
+Started: 2024-04-05 10:17:24.245256
+Existing_entries: 341
+Fetching from https://meta.appinn.net/tag/chrome.rss
+Fetching from https://meta.appinn.net/tag/ios.rss
+Fetching from https://meta.appinn.net/tag/macos.rss
+Append: [【翻译工具】开源免费的跨平台划词翻译软件](https://meta.appinn.net/t/topic/42940)
+append_entries: 1
+Finish: 2024-04-05 10:17:26.996584
